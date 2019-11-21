@@ -1,0 +1,33 @@
+{
+    "name": "h-cql",
+    "version": "0.0.1",
+    "description": "Helper to inspect cypher queries.",
+    "main": "src/index.js",
+    "scripts": {
+        "eslint": "eslint -c .eslintrc ./src/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lsshenrique/h-cql.git"
+    },
+    "keywords": [
+        "neo4j",
+        "database",
+        "graph",
+        "cypher",
+        "cql"
+    ],
+    "author": "Henrique L S Silva",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "clipboardy": "^2.1.0"
+    },
+    "bugs": {
+        "url": "https://github.com/lsshenrique/h-cql/issues"
+    },
+    "homepage": "https://github.com/lsshenrique/h-cql#readme",
+    "devDependencies": {
+        "eslint": "^6.3.0"
+    }
+}
